@@ -1,6 +1,6 @@
 <?php
 // TROCAR E ESCREVER DE NOVO PARA N COISAR DO GPT
-include('config.php');
+include('conect.php');
 
 if (isset($_POST['username']) && isset($_POST['senha'])) {
     //quantidade de caracteres
