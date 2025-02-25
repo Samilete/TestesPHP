@@ -1,28 +1,30 @@
 <?php
 //try{
-    $con = new PDO('pgsql:host=localhost; port=5432;dbname=20221214010024','postgres', 'pabd');
+    $con = new PDO('pgsql:host=localhost; port=5432;dbname=20221214010023','postgres', 'cams05');
     
-   // if (isset($_POST['submit'])){
-        //print_r($_POST['nome']);
-        //print_r($_POST['senha']);
-       // include_once('config.php');
+   //if (isset($_POST['submit'])){
+    //    print_r($_POST['nome']);
+    //    print_r($_POST['senha']);
+    //    include_once('conect.php');
 
-       // $username=$_POST['username'];
-       // $senha=$_POST['senha'];
+     //   $username=$_POST['username'];
+      //  $senha=$_POST['senha'];
 
-       // $result=  NEW PD0 ($con, "INSERT INTO usuario (userneme,senha) VALUES ('$username'.'$senha')");
-   // }
-  // if ($con) {
-      //  echo "deu certo";
-         //   $comando1 = $con->query("SELECT * FROM usuario");
+      //  $result=  NEW PD0 ($con, "INSERT INTO usuario (userneme,senha) VALUES ('$username'.'$senha')");
+    //}
+    //if ($con) {
+      //echo "deu certo";
+       //     $comando1 = $con->query("SELECT * FROM usuario");
     
       //  while ($var_linha = $comando1->fetch()) {
-       //     echo $var_linha[1] . "<br/>";	
+    //        echo $var_linha[1] . "<br/>";	
    // }
-   // }
+  //  }
+
 //} catch (PDOException $e) {
   // echo 'DEU ERRADO!!!' . $e;
-///}
+//}
+
 ?>
 
 <!DOCTYPE html>
