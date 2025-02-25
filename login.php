@@ -42,25 +42,30 @@ if (isset($_POST['username']) && isset($_POST['senha'])) {
 }
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tela de login</title>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style_login_cadastro.css" />
 </head>
 <body>
-    <a href="parte1.php">voltar</a>
-    <div>
-        <h1>login</h1>
+    <div class="link">
+        <a href="parte1.php"> Voltar à página inicial</a>
+    </div>
+    <br><br>
+    <div class="tela_conf">
+        <br>
         <form action="" method="POST">
+            <h1> LOGIN </h1>
             <input type="text" name="username" placeholder="username">
             <br><br>
             <input type="password" name="senha" placeholder="senha">
             <br><br>
-            <input type="submit" name="submit" value="enviar">
+            <input
+            style="background-color: rgb(45, 4, 61); border: none; border-radius: 10px; padding: 10px; width: 100%; color: aliceblue;"
+            type="submit" name="submit" value="enviar">
         </form>
     </div>
 </body>
