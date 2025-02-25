@@ -30,27 +30,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style_login_cadastro.css" />
     <title>Cadastro</title>
 </head>
 <body>
-    <a href="parte1.php">voltar</a>
-    <div class="box">
+    <div class="link">
+        <a href="parte1.php"> voltar para a página inicial </a>
+    </div>
+    <br><br>
+    <div class="tela_conf">
         <form action="insertusuario.php" method="POST">
-            <fieldset>
-                <legend> Formulario de usuario </legend>
-                <br>
-                <div class="inputbox">
-                    <input type="text" name="username" id="username" class="inputuserneme" required>
-                    <label for="username"> Username </label>
-                </div>
-                <div class="inputbox">
-                    <input type="password" name="senha" id="senha" class="inputsenha" required>
-                    <label for="senha"> Senha </label>
-                </div>
-                <input type="submit" name="submit" id="submit">
-            </fieldset>
+            <h1> CADASTRO </h1>
+            <p><i> Ainda não tem uma conta? Cadastre-se aqui.</i></p>
+            <input type="text" name="username" id="username" placeholder="username" required>
+            <br><br>
+            <input type="password" name="senha" id="senha" placeholder="senha" required>
+            <br><br>
+            <input
+            style="background-color: rgb(45, 4, 61); border: none; border-radius: 10px; padding: 10px; width: 100%; color: aliceblue;"
+            type="submit" name="submit" id="submit"> 
         </form>
     </div>
-    
 </body>
 </html>
